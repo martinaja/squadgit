@@ -34,7 +34,7 @@ const Header = () => {
 						type="button"
 					>
 						INICIAR SESIÓN
-						<i className="fa fa-user"></i>
+						<i className="fa fa-user icon"></i>
 					</button>
 				)}
 			</header>

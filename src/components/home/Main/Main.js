@@ -4,6 +4,8 @@ import { asyncSearchWeather } from '../../../slices/searchSlice';
 import SearchZones from './SearchZones';
 import WeatherReport from './WeatherReport';
 
+
+
 const Main = () => {
 	const dispatch = useDispatch();
 
