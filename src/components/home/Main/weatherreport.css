@@ -1,0 +1,156 @@
+.card {
+	border-color: var(--bs-gray-100);
+	height: 248px;
+	width: 349px;
+	height: 300px;
+	background: var(--bs-white);
+	border-radius: 5px;
+	box-shadow: 1px 1px 20px rgb(181, 181, 181);
+	border: none;
+	word-wrap: normal;
+	align-items: center;
+}
+
+.titulo {
+	font-size: 19.46px;
+	margin-top: 0px;
+	height: 30px;
+}
+.divider {
+	height: 2px;
+	width: 10px;
+}
+.fila {
+	height: 2px;
+	margin-top: auto;
+	background: #072147;
+	width: 60%;
+}
+
+.section {
+	height: 70px;
+	width: 22px;
+}
+
+.card2 {
+	height: 200px;
+	width: 168px;
+	margin: 0%;
+}
+
+.titulo2 {
+	background: rgba(214, 51, 132, 0);
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-right: 3rem;
+}
+
+.titulo3 {
+	font-size: 16.46px;
+	width: 180px;
+	color: var(--bs-gray);
+	margin-top: 15px;
+}
+
+.section2 {
+	height: 137px;
+	color: var(--bs-gray);
+}
+
+.day {
+	font-size: 22px;
+	color: black;
+	margin-top: 15px;
+}
+.row1 {
+	width: 356px;
+	color: var(--bs-gray);
+}
+
+.col1 {
+	height: 33px;
+	width: 100px;
+	color: var(--bs-gray);
+}
+
+.div2 {
+	height: 53px;
+	background: rgba(214, 51, 132, 0);
+	width: 101px;
+	color: var(--bs-gray);
+}
+
+.clima {
+	font-size: 18px;
+	width: 121px;
+	height: 13.875px;
+	color: var(--bs-gray);
+}
+
+.div3 {
+	height: 53px;
+	background: rgba(214, 51, 132, 0);
+	margin-top: 25px;
+	color: var(--bs-gray);
+}
+
+.temp {
+	font-size: 55px;
+	color: var(--bs-gray-900);
+}
+
+.div4 {
+	height: 3rem;
+	width: 3rem;
+	color: var(--bs-gray);
+}
+
+.div5 {
+	height: 53px;
+	background: rgba(214, 51, 132, 0);
+	margin-left: 56px;
+	color: var(--bs-gray);
+	margin-bottom: 3rem;
+}
+
+.col2 {
+	height: 53px;
+	background: rgba(214, 51, 132, 0);
+
+	color: var(--bs-gray);
+	margin-top: -4.5rem;
+}
+
+.final {
+	height: 300px;
+	background: rgba(214, 51, 132, 0);
+	margin-top: 17px;
+
+	width: 177.5px;
+	margin-right: 15px;
+	color: var(--bs-gray);
+}
+
+.titulo4 {
+	font-size: 14px;
+	height: 7px;
+	width: 163px;
+	margin-right: 0px;
+	color: var(--bs-gray);
+	margin-bottom: 2rem;
+}
+
+.final2 {
+	font-size: 14px;
+	height: 13px;
+	margin-right: 13px;
+	color: var(--bs-gray);
+}
+
+.final3 {
+	font-size: 14px;
+	margin-right: 13px;
+	color: var(--bs-gray);
+	margin-top: 25px;
+}

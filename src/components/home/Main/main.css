@@ -1,0 +1,37 @@
+.section1 {
+  height: 64px;
+  background: #f2f3ee;
+}
+
+.card1 {
+  height: 77px;
+  width: 440px;
+}
+
+.titlulo1 {
+  font-size: 19.46px;
+  margin-top: 33px;
+}
+
+.col1 {
+
+  margin-top: 540px;
+  background: #ff685b;
+  width: 240px;
+}
+
+.col2 {
+  height: 3px;
+  margin-top: auto;
+  background: #ff685b;
+  align-items: center;
+}
+
+.caja {
+  width: 444px;
+  height: 250px;
+}
+
+
+
+

@@ -1,0 +1,64 @@
+.box {
+	width: 100%;
+}
+
+.modal-content {
+	align-items: center;
+	width: 80%;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 1px 1px 20px rgb(136, 136, 136);
+	padding: 15px;
+	margin-left: 43px;
+}
+
+.modalize {
+	margin-bottom: 10px;
+}
+
+.form-label {
+	width: 100px;
+	text-align: left;
+	color: var(--bs-gray-600);
+	padding: 10px;
+}
+.text-center d-md-flex justify-content-md-center {
+	height: 41px;
+	font-weight: 300;
+}
+
+.form-control {
+	width: 210px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 0.5rem;
+}
+
+.form-label {
+	width: 190px;
+	text-align: center;
+	margin-bottom: -10px;
+	margin-left: 7rem;
+}
+
+.form-label {
+	width: 190px;
+	text-align: left;
+	color: #0e0d0d;
+	font-weight: 400;
+}
+
+.button {
+	background: #ff685b;
+	height: 35px;
+	width: 160px;
+	margin-top: 12px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border-color: #0a0a0a;
+}
+.btn-secondary:hover {
+	color: #fff;
+	background-color: #10c419;
+	border-color: #1b4e22;
+}

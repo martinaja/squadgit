@@ -1,0 +1,29 @@
+header {
+	height: 39px;
+	background: #ff685b !important;
+}
+button {
+	height: 25px;
+	width: 145.5px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 0.8rem;
+	margin-left: 11px;
+	margin-right: 11px;
+	background: #ff685b;
+	border-style: solid;
+	border-top-style: solid;
+	border-top-color: 'rgb(255, 255, 255)';
+	border-right-style: solid;
+	border-right-color: rgb(255, 255, 255);
+	border-bottom-style: solid;
+	border-bottom-color: rgb(255, 255, 255);
+	border-left-style: solid;
+	border-left-color: rgb(255, 255, 255);
+	border-color: aliceblue;
+	border-radius: 3px;
+	padding-right: 0 !important;
+}
+.modal-open {
+	padding-right: 0 !important;
+}
