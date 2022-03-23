@@ -77,7 +77,7 @@ See also the list of [contributors](https://github.com/kylelobo/The-Documentatio
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- <a src="https://axios-http.com/docs/intro">Axios was used to make the requests</a>
-- <a src="https://getbootstrap.com/">For Bootstrap styles</a>
-- <a src="https://es.reactjs.org/docs/context.html">For the login, the React context is used</a>
-- <a src="https://es.redux.js.org/">For handling the states of Redux requests</a>
+- [Axios was used to make the requests] (https://axios-http.com/docs/intro)
+- [For Bootstrap styles] (https://getbootstrap.com/)
+- [For the login, the React context is used] (https://es.reactjs.org/docs/context.html)
+- [For handling the states of Redux requests] (https://es.redux.js.org/)
