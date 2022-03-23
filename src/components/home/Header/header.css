@@ -8,8 +8,9 @@ button {
 	margin-top: auto;
 	margin-bottom: auto;
 	font-size: 0.8rem;
-	margin-left: 11px;
-	margin-right: 11px;
+	margin-left: 25px;
+	margin-right: 25px;
+	color: whitesmoke;
 	background: #ff685b;
 	border-style: solid;
 	border-top-style: solid;
@@ -22,8 +23,10 @@ button {
 	border-left-color: rgb(255, 255, 255);
 	border-color: aliceblue;
 	border-radius: 3px;
-	padding-right: 0 !important;
+	padding-right: 0.5 !important;
 }
-.modal-open {
-	padding-right: 0 !important;
+.icon{
+	margin-left: 12px;
 }
+
+
