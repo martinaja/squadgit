@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { asyncSearchWeather } from '../../../slices/searchSlice';
 import SearchZones from './SearchZones';
 import WeatherReport from './WeatherReport';
+import './main.css';
 
 
 
