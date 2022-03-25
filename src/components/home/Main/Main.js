@@ -7,19 +7,19 @@ import WeatherReport from './WeatherReport';
 
 
 const Main = () => {
-	const dispatch = useDispatch();
+	const dispatch = useDispatch(); // Traigo el dispatch
 
-	useEffect(() => {
-		const weatherInterval = setInterval(() => {
-			dispatch(asyncSearchWeather());
-		}, 900000); // 15 min
+	useEffect(() => { // Ejecuto la funcion de busqueda
+		const weatherInterval = setInterval(() => { // Seteo el intervalo de busqueda
+			dispatch(asyncSearchWeather()); // Ejecuto la funcion de busqueda
+		}, 900000); // 15 min///
 
-		return () => {
-			clearInterval(weatherInterval);
+		return () => { // Si se desmonta el componente, se limpia el intervalo
+			clearInterval(weatherInterval); // Limpio el intervalo
 		};
-	}, [dispatch]);
+	}, [dispatch]); // Seteo el dispatch
 
-	return (
+	return ( // Retorno el componente
 		<main>
 			<section
 				className="d-flex d-md-flex align-content-center justify-content-sm-start justify-content-md-center section1">
@@ -46,8 +46,8 @@ const Main = () => {
 				
 			>
 				<div className="row">
-					<SearchZones />
-					<WeatherReport />
+					<SearchZones /> {/* Componente de busqueda de zonas */}
+					<WeatherReport /> {/* Componente de reporte del clima */}
 				</div>
 			</div>
 		</main>

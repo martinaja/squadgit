@@ -11,16 +11,17 @@ const Header = () => {
 	return (
 		<>
 			<header className="d-sm-flex justify-content-sm-end align-items-sm-center header">
-				<Modal isOpen={open} toggle={() => setOpen(!open)}>
+				<Modal isOpen={open} toggle={() => setOpen(!open)}> 
 					<ModalBody>
 						<Login />
 					</ModalBody>
 				</Modal>
+			{/* Cambiar el nombre del boton removiendo el login del localstorage*/}
 				{isLogged ? (
 					<button
-						onClick={() => {
-							setIsLogged(false);
-							localStorage.removeItem('login');
+						onClick={() => { // Funcion que cierra la sesion
+							setIsLogged(false); // Seteo el estado de la sesion
+							localStorage.removeItem('login'); // Remuevo el login del localstorage
 						}}
 						className=" d-sm-flex justify-content-sm-center align-items-sm-center header"
 						type="button"
@@ -29,12 +30,12 @@ const Header = () => {
 					</button>
 				) : (
 					<button
-						onClick={() => setOpen(!open)}
+						onClick={() => setOpen(!open)} // Funcion que abre la sesion
 						className=" d-sm-flex justify-content-sm-center align-items-sm-center header"
-						type="button"
+						type="button" 
 					>
-						INICIAR SESIÓN
-						<i className="fa fa-user icon"></i>
+						INICIAR SESIÓN 
+						<i className="fa fa-user icon"></i> 
 					</button>
 				)}
 			</header>

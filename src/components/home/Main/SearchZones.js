@@ -53,7 +53,7 @@ const SearchZones = () => {
 				>
 					<input
 						onChange={e => {
-							setValues({ ...values, country: e.target.value });
+							setValues({ ...values, country: e.target.value }); // Seteo el valor del pais
 						}}
 						className="form-control"
 						style={{ width: '300px' }}
@@ -74,8 +74,8 @@ const SearchZones = () => {
 					style={{ height: '60px' }}
 				>
 					<input
-						onChange={e => {
-							setValues({ ...values, city: e.target.value });
+						onChange={e => { // Funcion que trae los codigos de pais y ciudad
+							setValues({ ...values, city: e.target.value }); // Seteo los parametros de la api
 						}}
 						className="form-control"
 						style={{ width: '300px' }}
@@ -86,7 +86,7 @@ const SearchZones = () => {
 					style={{ height: '54px' }}
 				>
 					<button
-						onClick={handleSubmit}
+						onClick={handleSubmit} // Funcion que trae los codigos de pais y ciudad
 						className="btn btn-primary d-sm-flex justify-content-sm-center align-items-sm-center"
 						type="button"
 						style={{

@@ -1,8 +1,8 @@
 import { useWeather } from '../../../hooks/useWeather';
 import './weatherreport.css';
 
-const WeatherReport = () => {
-	const [values, day] = useWeather();
+const WeatherReport = () => { // Componente que trae los datos del clima
+	const [values, day] = useWeather(); // Utilizo la funcion de useWeather para traer los datos del clima
 
 	return (
 		<div className="col card">
@@ -19,9 +19,9 @@ const WeatherReport = () => {
 					<div className="row">
 						<div className="col card2">
 							<div></div>
-							<div>
-								<h1 className="titulo2">{values.country}</h1>
-								<h1 className="titulo3">{values.city}</h1>
+							<div> 
+								<h1 className="titulo2">{values.country}</h1> {/*muestro el pais*/}
+								<h1 className="titulo3">{values.city}</h1> {/*muestro la ciudad*/}
 							</div>
 						</div>
 					</div>
@@ -30,14 +30,14 @@ const WeatherReport = () => {
 					<div className="row row1">
 						<div className="col col1">
 							<div className="div2">
-								<h1 className="day">{day}</h1>
+								<h1 className="day">{day}</h1> {/*muestro el dia*/}
 								<h1 className="d-xxl-flex align-items-xxl-center clima">
-									{values.weather}
+									{values.weather} {/*muestro el clima*/}
 								</h1>
 							</div>
 							<div className="div3">
 								<p className="d-md-flex align-items-md-end temp">
-									{values.temperature}
+									{values.temperature} {/*muestro la temperatura*/}
 								</p>
 							</div>
 						</div>
@@ -45,14 +45,14 @@ const WeatherReport = () => {
 							<div className="div5">
 								<div className="col">
 									<div className="col col2">
-										<img src={values.img} alt="Icono"></img>
+										<img src={values.img} alt="Icono"></img> {/*muestro la imagen*/}
 									</div>
 								</div>
 							</div>
 							<div className="text-end final">
-								<h1 className="titulo4">{values.rain}</h1>
-								<h1 className="text-end final2">{values.humidity}</h1>
-								<h1 className="text-end final3">{values.wind}</h1>
+								<h1 className="titulo4">{values.rain}</h1> {/*muestro la lluvia*/}
+								<h1 className="text-end final2">{values.humidity}</h1> {/*muestro la humedad*/}
+								<h1 className="text-end final3">{values.wind}</h1> {/*muestro la velocidad del viento*/}
 							</div>
 						</div>
 					</div>

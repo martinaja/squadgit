@@ -2,13 +2,13 @@ import { useContext } from 'react';
 import { Button } from 'reactstrap';
 import './login.css';
 import { loginContext } from '../../../context/LoginContext';
-
+ 
 const Login = () => {
-	const login = useContext(loginContext);
-	const { setEmail, setPassword, handleLogin } = login;
+	const login = useContext(loginContext);  // Traigo el contexto del login para poder acceder a sus valores
+	const { setEmail, setPassword, handleLogin } = login; // Desestrucuturo los valores del login 
 
 	return (
-		<form onSubmit={handleLogin}>
+		<form onSubmit={handleLogin}> 
 			<div className="box">
 				<div className="modal-dialog" role="document">
 					<div className="modal-content">
@@ -21,7 +21,7 @@ const Login = () => {
 									type="text"
 									className="form-control"
 									required
-									onChange={e => setEmail(e.target.value)}
+									onChange={e => setEmail(e.target.value)} // Seteo el valor del email
 								/>
 							</div>
 							<div className="text-center d-md-flex justify-content-md-center align-items-md-end">
@@ -32,7 +32,7 @@ const Login = () => {
 									type="password"
 									className="form-control"
 									required
-									onChange={e => setPassword(e.target.value)}
+									onChange={e => setPassword(e.target.value)} // Seteo el valor del password
 								/>
 							</div>
 							<div className="text-center d-md-flex justify-content-md-center">

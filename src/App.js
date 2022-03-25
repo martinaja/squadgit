@@ -3,7 +3,7 @@ import Home from './pages/Home';
 
 function App() {
 	return (
-		<LoginContext>
+		<LoginContext> {/* Contexto de login */}
 			<Home />
 		</LoginContext>
 	);
