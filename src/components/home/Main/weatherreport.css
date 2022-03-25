@@ -21,7 +21,7 @@
 	width: 10px;
 }
 .fila {
-	height: 2px; 
+	height: 2px;
 	margin-top: auto;
 	background: #072147;
 	width: 60%;
@@ -43,7 +43,6 @@
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 15px;
-	margin-right: 3rem;
 }
 
 .titulo3 {
@@ -98,7 +97,7 @@
 
 .temp {
 	font-size: 55px;
-	color: black
+	color: black;
 }
 
 .div4 {
@@ -140,6 +139,8 @@
 	margin-right: 0px;
 	color: var(--bs-gray);
 	margin-bottom: 2rem;
+	margin-left: 8rem;
+	margin-top: -2rem;
 }
 
 .final2 {
@@ -147,11 +148,19 @@
 	height: 13px;
 	margin-right: 13px;
 	color: var(--bs-gray);
+	margin-left: 7rem;
+	width: 100%;
 }
 
 .final3 {
 	font-size: 14px;
-	margin-right: 13px;
+	margin-left: 6.8rem;
 	color: var(--bs-gray);
 	margin-top: 25px;
+	width: 100%;
+}
+
+.icono {
+	margin-top: -2rem;
+	margin-left: 7rem;
 }

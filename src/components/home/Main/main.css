@@ -1,5 +1,5 @@
 .section1 {
-  
+  height: 64px;
   background: #f2f3ee;
 }
 
@@ -8,10 +8,9 @@
   width: 440px;
 }
 
-.titlulo {
+.titlulo1 {
   font-size: 19.46px;
   margin-top: 33px;
-  margin-left: 12rem;
 }
 
 .col1 {
