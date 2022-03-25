@@ -4,15 +4,8 @@ const SearchZones = () => {
 	const [values, setValues, handleSubmit] = useSearch();
 
 	return (
-		<div className="col">
-			<div
-				style={{
-					height: '300px',
-					background: 'var(--bs-body-bg)',
-					borderRadius: '5px',
-					boxShadow: '1px 1px 20px rgb(181, 181, 181)'
-				}}
-			>
+		<div className="col-xl-6 card">
+			<div>
 				<h1
 					className="text-center d-sm-flex justify-content-sm-center align-items-sm-end"
 					style={{
@@ -47,10 +40,7 @@ const SearchZones = () => {
 				>
 					País
 				</label>
-				<div
-					className="d-sm-flex justify-content-sm-center align-items-sm-center"
-					style={{ height: '60px' }}
-				>
+				<div className="d-sm-flex justify-content-sm-center align-items-sm-center" style={{ height: '60px' }}>
 					<input
 						onChange={e => {
 							setValues({ ...values, country: e.target.value }); // Seteo el valor del pais
@@ -69,22 +59,17 @@ const SearchZones = () => {
 				>
 					Ciudad
 				</label>
-				<div
-					className="d-sm-flex justify-content-sm-center align-items-sm-center"
-					style={{ height: '60px' }}
-				>
+				<div className="d-sm-flex justify-content-sm-center align-items-sm-center" style={{ height: '60px' }}>
 					<input
-						onChange={e => { // Funcion que trae los codigos de pais y ciudad
+						onChange={e => {
+							// Funcion que trae los codigos de pais y ciudad
 							setValues({ ...values, city: e.target.value }); // Seteo los parametros de la api
 						}}
 						className="form-control"
 						style={{ width: '300px' }}
 					/>
 				</div>
-				<div
-					className="d-sm-flex justify-content-sm-center align-items-sm-center"
-					style={{ height: '54px' }}
-				>
+				<div className="d-sm-flex justify-content-sm-center align-items-sm-center" style={{ height: '54px' }}>
 					<button
 						onClick={handleSubmit} // Funcion que trae los codigos de pais y ciudad
 						className="btn btn-primary d-sm-flex justify-content-sm-center align-items-sm-center"
