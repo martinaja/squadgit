@@ -64,6 +64,7 @@
 	margin-top: 15px;
 }
 .row1 {
+	--bs-gutter-x: 12rem;
 	width: 356px;
 	color: var(--bs-gray);
 }
