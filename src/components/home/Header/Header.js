@@ -16,7 +16,7 @@ const Header = () => {
                         <Login />
                     </ModalBody>
                 </Modal>
-                {isLogged ? <p className="user">Bienvenido {email}</p> : <p className="user">Bienvenido Invitado</p>}
+                {isLogged ? <p className="col-4 user">Hola {email}</p> : <p className="user">Hola Invitado</p>}
                 {/* Cambiar el nombre del boton removiendo el login del localstorage*/}
                 {isLogged ? (
                     <button
