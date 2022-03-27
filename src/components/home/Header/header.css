@@ -2,7 +2,7 @@ header {
     height: 39px;
     background: #ff685b !important;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .button-login {
     height: 25px;
@@ -11,7 +11,7 @@ header {
     margin-bottom: auto;
     font-size: 0.8rem;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 10px;
     color: whitesmoke;
     background: #ff685b;
     border-style: solid;
@@ -34,4 +34,6 @@ header {
 .user {
     color: whitesmoke;
     margin-top: 0.4rem;
+    margin-left: 1rem;
+    font-size: 12px;
 }

@@ -1,19 +1,26 @@
 .footer {
-  margin-top: 1rem;
-  padding: 1rem;
+margin: 0%;
+height: 4rem;
   color: whitesmoke;
   background-color: rgb(15, 15, 14);
-
   
-  width: 100%;
-  margin-bottom: -1.5rem;
+  margin-bottom: 0rem !important;
+  margin-top: 7rem;
+  max-width: 1800px;
+
 }
+
+
 
 .squad {
   color: whitesmoke;
   background-color: rgb(15, 15, 14);
   text-align: right;
-  margin-bottom: 35px;
-margin-top: -1.9rem;
-  width: 100%;
+margin-top: 1rem;
+  
+}
+
+.title {
+margin-top: 1rem;
+display: flex;
 }

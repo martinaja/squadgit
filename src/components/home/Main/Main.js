@@ -31,7 +31,7 @@ const Main = () => {
 							<h4 className="text-center titulo1" style={{ margin: '2rem' }}>
 								SERVICIO DEL CLIMA
 							</h4>
-							<hr></hr>
+							<hr  ></hr>
 						</div>
 					</div>
 					<div className="row">

@@ -2,10 +2,15 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer"> 
-      <h6>Copyrigth 20022 All right registered</h6>
-      <p className="squad">Squad Arquitecturra empresarial</p>
+    <div class="container footer">
+    <div class="row">
+      <div class="col title">Copyright 2022 All right register</div>
+      <div class="col squad">Squad Arquitectura Empresarial</div>
+      
     </div>
+  </div>
+
+
   );
 };
 
