@@ -1,5 +1,5 @@
 header {
-    height: 39px;
+    height: 60px;
     background: #ff685b !important;
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@ header {
 
 .user {
     color: whitesmoke;
-    margin-top: 0.4rem;
+    margin-top: 1rem;
     margin-left: 1rem;
     font-size: 15px;
 }

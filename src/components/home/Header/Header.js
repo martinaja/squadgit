@@ -11,12 +11,12 @@ const Header = () => {
     return (
         <>
             <header className="header">
-                <Modal isOpen={open} toggle={() => setOpen(!open)}>
+                <Modal isOpen={open} toggle={() => setOpen(!open)}> 
                     <ModalBody>
                         <Login />
                     </ModalBody>
                 </Modal>
-                {isLogged ? <p className="col-4 user">Hola {email}</p> : <p className="user">Hola Invitado</p>}
+                {isLogged ? <p className="col-4 user">Hola {email}</p> : <p className="user">Hola Invitado</p>} {/* Si esta logueado, muestra el email, sino, muestra "Hola Invitado" */}
                 {/* Cambiar el nombre del boton removiendo el login del localstorage*/}
                 {isLogged ? (
                     <button
